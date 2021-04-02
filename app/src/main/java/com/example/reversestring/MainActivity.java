@@ -24,11 +24,12 @@ public class MainActivity extends AppCompatActivity {
         edtString = findViewById(R.id.edtString);
         reversedStr = findViewById(R.id.reversedStr);
 
-        String[] myFavSports = new String[4];
+        String[] myFavSports = new String[5];
         myFavSports[0] = "Boxing";
         myFavSports[1] = "Judo";
         myFavSports[2] = "Body Building";
         myFavSports[3] = "Karate";
+        myFavSports[3] = "Git clone test 4/2/2021";
 
         String arrays = "";
         for (String sportName : myFavSports) {
